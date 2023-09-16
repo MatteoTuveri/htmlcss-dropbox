@@ -1,13 +1,86 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --header-bg-color:
+/*var-section*/
+:root {
+    --debug: black;
+    --nav-bg-color: white;
+    --header-bg-color: rgb(180, 208, 230);
+    --first-buttons-color: rgb(0, 97, 254);
+    --first-buttons-text-color: white;
+    --buttons-padding: 5px 10px;
+
 }
 
-.debug{
-    border: 1px solid black;
+/*general-page-setting*/
+.debug {
+    border: 1px solid var(--debug);
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.align-start{
+    align-items: start;
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+.container{
+    min-width: 500px;
+    width:80%;
+    margin: 0 auto;
+}
+
+.first-buttons-settings {
+    color: var(--first-buttons-text-color);
+    background-color: var(--first-buttons-color);
+    padding: var(--buttons-padding);
+
+}
+
+li {
+    padding: 0px 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*header-settings*/
+header{
+    min-width: 500px;
+}
+header ul {
+    list-style: none;
+    margin: auto 10px;
+}
+
+header img {
+    display: block;
+}
+
+header nav {
+    padding: 20px 10px;
+}
+.jumbo-color{
+    background-color: var(--header-bg-color);
 }
