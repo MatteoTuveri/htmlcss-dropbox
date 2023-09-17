@@ -78,6 +78,9 @@ header ul {
     list-style: none;
     margin: auto 10px;
 }
+h1{
+    font-size: 3em;
+}
 
 header img {
     display: block;
