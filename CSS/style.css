@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /*var-section*/
@@ -78,8 +79,18 @@ header ul {
     list-style: none;
     margin: auto 10px;
 }
-h1{
+
+header i {
+    font-size: 250%;
+}
+
+header>div {
+    padding-top: 10px;
+}
+
+h1 {
     font-size: 3em;
+    padding: 30px 0px;
 }
 
 header img {
@@ -91,14 +102,31 @@ header nav {
     padding: 20px 10px;
 }
 
-.jumbo-color {
+.jumbo-setting {
     background-color: var(--header-bg-color);
+    padding: 10px 0px;
 }
 
 #description {
     width: 30%;
 }
 
+#description .first-buttons-settings {
+    margin: 15px 0px;
+}
+#description>div:nth-child(1){
+    margin-bottom: 10px;
+}
+
 #jumbo-img {
     width: 70%;
+    position: relative;
+}
+
+#jumbo-img img {
+    margin-bottom: -100px;
+}
+/*main-settings*/
+main .container{
+    padding: 10% 5%;
 }
