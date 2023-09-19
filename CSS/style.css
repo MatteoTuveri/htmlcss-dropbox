@@ -38,12 +38,12 @@
 }
 
 header, main {
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     min-width: 1000px;
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 1400px;
     width: 80%;
     margin: 0 auto;
 }
@@ -229,18 +229,18 @@ h1 {
 }
 
 #description {
-    width: 35%;
+    width: 30%;
 }
 
 #jumbo-img {
     position: relative;
-    width: 65%;
+    width: 70%;
 }
 
 #jumbo-img img {
-    position: absolute;
-    width: 90%;
-    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    margin-bottom: -100px ;
 }
 
 /*plans-and-cards-settings*/
@@ -254,7 +254,7 @@ input{
     margin-right: 2px;
 }
 .plan-cards {
-    width: calc(100% / 3.3);
+    width: calc(100% / 3.);
     border: 1px solid var(--cards-border-color);
 
 }
