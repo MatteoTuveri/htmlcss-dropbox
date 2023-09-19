@@ -13,6 +13,8 @@
     --first-buttons-color: rgb(0, 97, 254);
     --first-buttons-text-color: white;
     --buttons-padding: 5px 15px;
+    --cards-border-color:rgb(0, 0, 0, .2);
+    --checks-color:rgb(61, 109, 253);
 
 }
 
@@ -20,9 +22,11 @@
 .debug {
     border: 1px solid var(--debug);
 }
-
+body{
+    font-size: 1.3em;
+}
 .container {
-    min-width: 800px;
+    min-width: 1000px;
     max-width: 1400px;
     width: 80%;
     margin: 0 auto;
@@ -46,13 +50,7 @@ ul {
     list-style: none;
 }
 
-.d-flex-row li {
-    display: flex;
-    align-items: center;
-    padding: 0px 10px;
-}
-
-a {
+nav a, .first-buttons-settings a {
     text-decoration: none;
     color: inherit;
 }
@@ -68,9 +66,10 @@ a {
 .mb-30 {
     margin-bottom: 30px;
 }
-.mb-50{
-    margin-bottom: 50px;
+.mb-40 {
+    margin-bottom: 40px;
 }
+
 
 /*flex-options*/
 
@@ -107,6 +106,9 @@ a {
 .j-content-between {
     justify-content: space-between;
 }
+.j-content-center {
+    justify-content: center;
+}
 
 /*header-settings*/
 header {
@@ -117,27 +119,28 @@ header {
     height: 80px;
     width: 100%;
     background-color: white;
-    min-width: 800px;
+    min-width: 1000px;
     box-shadow: 0px 2px 2px;
 }
 
 nav {
     width: 100%;
     height: 100%;
+    padding: 10px 10px;
+}
+nav li {
+    display: flex;
+    align-items: center;
+    text-align: center;
     padding: 0px 10px;
 }
-
-header li {
-    text-align: center;
-}
-
-header li:hover {
+nav li:hover {
     background-color: #666;
 }
 
 #logo {
-    min-width: 100px;
-    padding: 0px 10px;
+    min-width: 150px;
+    padding: 0px 2px;
 }
 
 #start-button {
@@ -164,20 +167,54 @@ h1 {
     font-size: 2em;
 }
 #description{
-    width: 40%;
+    width: 35%;
 }
 #jumbo-img{
     position: relative;
-    width: 60%;
+    width: 65%;
 }
 #jumbo-img img{
     position: absolute;
-    max-width: 600px;
+    max-width: 900px;
 }
 /*plans-and-cards-settings*/
-#plans{
-    padding: 30px 5%;
+#container-main{
+    padding: 0px 50px;
+    padding-top: 200px;
 }
 h2{
     font-size: 2em;
+}
+.cards{
+    width: calc(100% / 3.3);
+    border: 1px solid var(--cards-border-color);
+
+}
+.cards-container{
+    padding: 0px 40px;
+}
+.title-card{
+    padding: 5px 0;
+    border-bottom: 1px solid var(--cards-border-color);
+}
+.month{
+    font-style:italic;
+    color: rgb(0, 0, 0, .4);
+}
+.cards i{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.hr-setting{
+    border: 1px solid var(--cards-border-color);
+    width: 20%;
+}
+.checks{
+    color:var(--checks-color);
+}
+#fourth-card{
+    width: 100%;
+}
+#des-fourth-card{
+    width: 70%;
 }

@@ -53,7 +53,7 @@
     </header>
 
     <main class="debug">
-        <div class="debug d-flex-column mb-50 jumbo-bg"><!--jumbo-section-->
+        <div class="debug d-flex-column jumbo-bg"><!--jumbo-section-->
             <div class="debug container"><!--title-page-->
                 <h1 class="debug mb-30">
                     Tutto ciò che ti serve per il lavoro, in un unico posto
@@ -84,33 +84,312 @@
                 </div>
             </div>
         </div><!--finish-jumbo-section-->
-        <section id="plans" class="debug container"><!--plans-section-->
-            <h2 class="debug mb-20">
-                Trova il piano Business che fa per te
-            </h2>
-            <div class="debug">
-                <input type="radio" class="debug">Fatturazione Mensile
-                <input type="radio" class="debug">Fatturazione annuale
-            </div>
-            <div class="debug d-flex-row content-between"><!--cards-container-->
-                <div class="debug "><!--first-card-->
-
+        <div id="container-main" class="debug container">
+            <section class="debug"><!--plans-section-->
+                <h2 class="debug mb-30">
+                    Trova il piano Business che fa per te
+                </h2>
+                <div class="debug mb-30">
+                    <input type="radio" class="debug">Fatturazione Mensile
+                    <input type="radio" class="debug">Fatturazione annuale
                 </div>
-                <div class="debug"><!--second-card-->
+                <div class="debug d-flex-colum">
+                    <div class="debug d-flex-row j-content-between mb-30"><!--cards-container-->
+                        <div class="debug cards d-flex-column "><!--first-card-->
+                            <div class="debug d-flex-row j-content-center title-card mb-20">
+                                <i class="fa-solid fa-user"></i>
+                                <div class="debug">
+                                    Singolo
+                                </div>
+                            </div>
+                            <div class="debug cards-container">
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <h3 class="debug mb-10">
+                                        Professional
+                                    </h3>
+                                    <h4 class="debug mb-10">
+                                        € 12,00
+                                    </h4>
+                                    <div class="debug mb-10 month">
+                                        /mese
+                                    </div>
+                                </div>
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <ul class="debug">
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-user"></i>
+                                            <div class="debug">
+                                                1 Utente
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-folder"></i>
+                                            <div class="debug">
+                                                5 TB di spazio di archiviazione sicuro sicuro
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <div class="debug">
+                                                Funzioni di produttività premium e condivisione file semplice e sicura
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="debug first-buttons-settings j-content-center mb-20">
+                                    <a href="#">Prova gratis per 30 giorni</a>
+                                </div>
+                                <div class="debug d-flex-row a-items-start mb-30">
+                                    oppure &nbsp;<a href="#">acquista ora</a>
+                                </div>
+                                <div class="debug d-flex-row a-items-start mb-30">
+                                    <hr class="hr-setting">
+                                </div>
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <h4 class="debug mb-20">
+                                        Punti Salienti del piano
+                                    </h4>
+                                    <ul class="debug">
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Invia file fino a 100 GB con Dropbox Transfert
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Cartelle offline su dispositivi mobili
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                    <div class="debug">
+                            </div>
 
+                        </div>
+                        <div class="debug cards d-flex-column "><!--second-card-->
+                            <div class="debug d-flex-row j-content-center title-card mb-20">
+                                <i class="fa-solid fa-users"></i>
+                                <div class="debug">
+                                    Team
+                                </div>
+                            </div>
+                            <div class="debug cards-container">
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <h3 class="debug mb-10">
+                                        Advanced
+                                    </h3>
+                                    <h4 class="debug mb-10">
+                                        € 18,00
+                                    </h4>
+                                    <div class="debug mb-10 month">
+                                        /utente/mese
+                                    </div>
+                                </div>
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <ul class="debug">
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-users"></i>
+                                            <div class="debug">
+                                                3 o più utenti
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-folder"></i>
+                                            <div class="debug">
+                                                Tutto lo spazio di cui ha bisogno il tuo team
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <div class="debug">
+                                                Sofisticate funzioni di controllo e per tenere al sicuro tutti i file
+                                                del tuo team
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="debug first-buttons-settings j-content-center mb-20">
+                                    <a href="#">Prova gratis per 30 giorni</a>
+                                </div>
+                                <div class="debug d-flex-row a-items-start mb-30">
+                                    oppure &nbsp;<a href="#">acquista ora</a>
+                                </div>
+                                <div class="debug d-flex-row a-items-start mb-30">
+                                    <hr class="hr-setting">
+                                </div>
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <h4 class="debug mb-20">
+                                        Punti Salienti del piano
+                                    </h4>
+                                    <ul class="debug">
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Nessun limite di spazio per i file
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Cartelle offline su dispositivi mobili
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Risparmio del 50% rispetto alle iscrizioni singole
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Possibilità di inserire nuovi membri del team
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Gestione dei permessi in base ai ruoli
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="debug cards d-flex-column "><!--third-card-->
+                            <div class="debug d-flex-row j-content-center title-card mb-20">
+                                <i class="fa-solid fa-building"></i>
+                                <div class="debug">
+                                    Azienda
+                                </div>
+                            </div>
+                            <div class="debug cards-container">
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <h3 class="debug mb-10">
+                                        Enterprise
+                                    </h3>
+                                    <h4 class="debug mb-10">
+                                        Contattaci
+                                    </h4>
+                                    <div class="debug mb-10">
+                                        -
+                                    </div>
+                                </div>
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <ul class="debug">
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-user"></i>
+                                            <div class="debug">
+                                                1o o più utenti
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-folder"></i>
+                                            <div class="debug">
+                                                Soluzioni personalizzabili per la tua azienda
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <div class="debug">
+                                                Assistenza personalizzata per aiutare gli amministratori in una gestione
+                                                su larga scala
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="debug first-buttons-settings j-content-center mb-20">
+                                    <a href="#">Contattaci</a>
+                                </div>
+                                <div class="debug d-flex-row a-items-start mb-30">
+                                    oppure &nbsp;<a href="#">acquista ora</a>
+                                </div>
+                                <div class="debug d-flex-row a-items-start mb-30">
+                                    <hr class="hr-setting">
+                                </div>
+                                <div class="debug d-flex-column a-items-start mb-20">
+                                    <h4 class="debug mb-20">
+                                        Punti Salienti del piano
+                                    </h4>
+                                    <ul class="debug">
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Cartelle offline su dispositivi mobili
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Servizio assistenza 24/h
+                                            </div>
+                                        </li>
+                                        <li class="debug d-flex-row a-items-start mb-10">
+                                            <div class="debug checks">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="debug">
+                                                Possibilità di personalizzazione totale
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="fourth-card" class="debug cards d-flex-column"><!--first-card-->
+                        <div class="debug d-flex-row j-content-center title-card mb-20">
+                            <i class="fa-solid fa-building"></i>
+                            <div class="debug">
+                                Team
+                            </div>
+                        </div>
+                        <div class="debug d-flex-row cards-container j-content-between a-items-start">
+                            <div id="des-fourth-card" class="debug d-flex-column a-items-start mb-20">
+                                <h3 class="debug mb-10">
+                                   Enterprise
+                                </h3>
+                                <h4 class="debug mb-40">
+                                    Contatta l'ufficio vendte per i prezzi
+                                </h4>
+                                <p class="debug mb-20">
+                                    Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala
+                                </p>
+                            </div>
+                            <div class="debug first-buttons-settings">
+                                Contatta l'ufficio vendite
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="debug"><!--third-card-->
 
-                    <div class="debug">
+            </section>
+        </div>
 
-                    </div>
-                </div>
-
-            </div>
-        </section>
 
     </main>
 </body>
