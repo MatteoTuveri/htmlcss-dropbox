@@ -184,7 +184,8 @@ nav li:hover {
 #logo {
     width: 10vw;
     min-width: 50px;
-    padding: 0px 2px;
+    max-width: 150px;
+    padding: 0px 5px;
 }
 
 #start-button {
