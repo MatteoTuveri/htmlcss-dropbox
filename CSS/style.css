@@ -239,6 +239,7 @@ nav li:hover {
 /*main-settings*/
 main {
     padding-top: 80px;
+    font-size: 0.8vw;
     min-width: 1000px;
 }
 main>div:nth-last-child(1){
