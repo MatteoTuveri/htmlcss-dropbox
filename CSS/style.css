@@ -15,7 +15,7 @@
     --second-buttons-color: white;
     --second-buttons-text-color: black;
     --second-buttons-border: 1px solid black;
-    --buttons-padding: 5px 15px;
+    --buttons-padding: 10px 20px;
     --cards-border-color: rgb(0, 0, 0, .2);
     --checks-color: rgb(61, 109, 253);
     /*members-cards*/
@@ -57,6 +57,7 @@ header, main {
     color: var(--first-buttons-text-color);
     background-color: var(--first-buttons-color);
     padding: var(--buttons-padding);
+    text-decoration: none;
 
 }
 
@@ -67,6 +68,7 @@ header, main {
     background-color: var(--second-buttons-color);
     padding: var(--buttons-padding);
     border: var(--second-buttons-border);
+    text-decoration: none;
 }
 
 img {
@@ -87,9 +89,7 @@ ul {
     width: 20%;
 }
 
-nav a,
-.first-buttons-settings a,
-.second-buttons-settings a {
+nav a {
     text-decoration: none;
     color: inherit;
 }
