@@ -221,7 +221,7 @@ nav li:hover {
 }
 #function-hover{
     position: absolute;
-    padding-top: 100%;
+    padding-top: 99%;
     top: 0;
     left: 0;
     opacity: 0;
@@ -229,11 +229,16 @@ nav li:hover {
 #function-hover-setting{
     justify-content: space-around;
     z-index: 100;
-    width: 400%;
+    padding: 10px 10px;
+    width: 200%;
     background-color:rgb(204, 204, 204);
 }
 #function-hover:hover{
     opacity: 1;
+}
+#function li{
+    padding: 0px;
+    align-self: flex-start;
 }
 
 /*main-settings*/
