@@ -41,7 +41,7 @@ html{
 }
 
 main {
-    font-size:calc(60% + (1vw / 60%));
+    font-size:0.8vw;
     min-width: 1000px;
 }
 
@@ -215,6 +215,25 @@ nav li:hover {
 
 #start-button {
     margin: 0px 10px;
+}
+#function{
+    position: relative;
+}
+#function-hover{
+    position: absolute;
+    padding-top: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+#function-hover-setting{
+    justify-content: space-around;
+    z-index: 100;
+    width: 400%;
+    background-color:rgb(204, 204, 204);
+}
+#function-hover:hover{
+    opacity: 1;
 }
 
 /*main-settings*/
