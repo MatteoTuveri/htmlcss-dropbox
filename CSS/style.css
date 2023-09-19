@@ -36,6 +36,9 @@
 .debug {
     border: 1px solid var(--debug);
 }
+html{
+    scroll-behavior: smooth;
+}
 
 header, main {
     font-size: 0.8vw;
@@ -227,6 +230,9 @@ h1 {
 #arrow {
     font-size: 2vw;
 }
+#arrow a:visited{
+    color: black;
+}
 
 #description {
     width: 30%;
@@ -254,7 +260,7 @@ input{
     margin-right: 2px;
 }
 .plan-cards {
-    width: calc(100% / 3.);
+    width: calc(100% / 3.3);
     border: 1px solid var(--cards-border-color);
 
 }
