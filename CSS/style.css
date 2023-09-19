@@ -43,7 +43,7 @@ header, main {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1800px;
     width: 80%;
     margin: 0 auto;
 }
@@ -196,7 +196,9 @@ nav li:hover {
 main {
     padding-top: 80px;
 }
-
+main>div:nth-last-child(1){
+    padding-bottom: 120px;
+}
 .section-padding {
     padding: 60px 0px;
 }
@@ -237,7 +239,8 @@ h1 {
 
 #jumbo-img img {
     position: absolute;
-    max-width: 900px;
+    width: 90%;
+    max-width: 1200px;
 }
 
 /*plans-and-cards-settings*/
@@ -437,7 +440,11 @@ footer select{
     background: none;
 }
 
-.footer-font, footer hr {
+.footer-font {
     color: rgb(255, 255, 255, 0.5);
+    width: 100%;
+}
+footer hr{
+    border: 1px solid rgb(255, 255, 255, 0.5);
     width: 100%;
 }
