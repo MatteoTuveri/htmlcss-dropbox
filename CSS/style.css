@@ -40,11 +40,6 @@ html{
     scroll-behavior: smooth;
 }
 
-main {
-    font-size:0.8vw;
-    min-width: 1000px;
-}
-
 .container {
     max-width: 1400px;
     width: 80%;
@@ -221,7 +216,7 @@ nav li:hover {
 }
 #function-hover{
     position: absolute;
-    padding-top: 99%;
+    padding-top: 95%;
     top: 0;
     left: 0;
     opacity: 0;
@@ -244,6 +239,7 @@ nav li:hover {
 /*main-settings*/
 main {
     padding-top: 80px;
+    min-width: 1000px;
 }
 main>div:nth-last-child(1){
     padding-bottom: 120px;
@@ -281,18 +277,19 @@ h1 {
 }
 
 #description {
-    width: 30%;
+    width: 40%;
 }
 
 #jumbo-img {
     position: relative;
-    width: 70%;
+    width: 60%;
 }
 
 #jumbo-img img {
     position: relative;
     width: 100%;
     margin-bottom: -100px ;
+    min-width: 600px;
 }
 
 /*plans-and-cards-settings*/
